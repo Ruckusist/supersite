@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ruckusist.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/css/base.css" rel="stylesheet">
+
+    <script
+			  src="https://code.jquery.com/jquery-3.6.0.min.js"
+			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			  crossorigin="anonymous">
+    </script>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+    <link href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div id="screen" class="screen">
+    {% include "nav.html" %}
+    <div id="holder-main" class="main_block">
+        {% include "home.html" %}
+        {% include "socket.html" %}
+    </div>
+</div>
+<!-- <script type="text/javascript" src="static/js/animated_nav.js"></script> -->
+<!-- <script type="text/javascript" src="static/js/slider_page.js"></script> -->
+</body>
+</html>
