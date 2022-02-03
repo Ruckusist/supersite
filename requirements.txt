@@ -1,0 +1,4 @@
+colorama
+aiohttp
+flask
+jinja2
