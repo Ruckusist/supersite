@@ -20,3 +20,11 @@ npm run package
 npm start
     this will start the python server backend.
 
+
+# Change log:
+2.3.22 -- added sass loaders and webpack commands to the script runner.
+
+# TODO:
+- a toolchain to push this from the dev enviroment to the prod enviroment.
+
+- connect the other parts back together.

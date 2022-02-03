@@ -5,6 +5,7 @@
     animated_nav.ts
     Last Updated 10-19-21
 */
+"use strict";
 
 const body = document.body;
 const bgColorsBody = ["#ffb457", "#ff96bd", "#9999fb", "#ffe797", "#cffff1"];

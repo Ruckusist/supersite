@@ -11,7 +11,7 @@ from src.sock import socket_server
 
 
 # views
-@aiohttp_jinja2.template('main.html')
+@aiohttp_jinja2.template('main.j2')
 async def main(request):
     print(Fore.GREEN + f"[REQ] home_page <- {request.remote}" + Fore.RESET)
     return {
