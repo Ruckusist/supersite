@@ -1,0 +1,44 @@
+$bgcolor: lightblue;
+
+body {
+    background-color: $bgcolor;
+    display: grid;
+    grid-template-areas:
+    "header header menu"
+    "nav section section"
+    "nav root root";
+    grid-template-rows: 80px 1fr 50px;
+	grid-template-columns: 15% 1fr 18%;
+	grid-gap: 5px;
+    height: 96vh;
+    margin: 10px; 
+}
+
+header {
+	background: #707070;
+	grid-area: header;
+}
+
+nav {
+	background: #C9BFBF;
+	grid-area: nav; 
+}
+
+section {
+	background: #ABABAB;
+	grid-area: section;    
+}
+
+menu {
+	// background: #C9C9C9;
+	grid-area: menu; 
+}
+
+root {
+    grid-area: root;
+    background: #707070;
+}
+
+header, nav, section, menu, root {
+	padding: 5px;
+}
